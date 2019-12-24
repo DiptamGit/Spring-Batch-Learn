@@ -6,13 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.diptam</groupId>
 	<artifactId>Spring-Batch-Learn</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring-Batch-Learn</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Batch Learning Project</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -37,6 +37,12 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.10</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
